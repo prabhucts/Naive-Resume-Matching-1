@@ -6,8 +6,6 @@ import pandas as pd
 import os
 import tf_idf
 
-## For Spacy's English Package
-python -m spacy download en_core_web_sm
 
 ## For NLTK Data
 import nltk
