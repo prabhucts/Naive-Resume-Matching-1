@@ -6,6 +6,13 @@ import pandas as pd
 import os
 import tf_idf
 
+## For Spacy's English Package
+python -m spacy download en_core_web_sm
+
+## For NLTK Data
+import nltk
+nltk.download('popular')  # this downloads the popular packages from NLTK_DATA
+
 resume_dir = "Data/Resumes/"
 job_desc_dir = "Data/JobDesc/"
 resume_names = os.listdir(resume_dir)
