@@ -5,11 +5,13 @@ import textract as tx
 import pandas as pd
 import os
 import tf_idf
-
-
+import scipy
+import numpy
+import scikit-learn
 ## For NLTK Data
 import nltk
 nltk.download('all')  # this downloads the popular packages from NLTK_DATA
+nltk.download('stopwords')
 
 resume_dir = "Data/Resumes/"
 job_desc_dir = "Data/JobDesc/"
