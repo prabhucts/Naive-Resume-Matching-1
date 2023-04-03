@@ -9,7 +9,7 @@ import tf_idf
 
 ## For NLTK Data
 import nltk
-nltk.download('popular')  # this downloads the popular packages from NLTK_DATA
+nltk.download('all')  # this downloads the popular packages from NLTK_DATA
 
 resume_dir = "Data/Resumes/"
 job_desc_dir = "Data/JobDesc/"
