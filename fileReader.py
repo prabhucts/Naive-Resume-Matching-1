@@ -1,14 +1,13 @@
+## For NLTK Data
+import nltk
+nltk.download('all')  # this downloads the popular packages from NLTK_DATA
+nltk.download('stopwords')
 from operator import index
 from pandas._config.config import options
 import Cleaner
 import textract as tx
 import pandas as pd
 import os
-
-## For NLTK Data
-import nltk
-nltk.download('all')  # this downloads the popular packages from NLTK_DATA
-nltk.download('stopwords')
 import tf_idf
 import scipy
 import numpy
