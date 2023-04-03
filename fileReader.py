@@ -7,7 +7,8 @@ import os
 import tf_idf
 import scipy
 import numpy
-import scikit-learn
+import sklearn
+
 ## For NLTK Data
 import nltk
 nltk.download('all')  # this downloads the popular packages from NLTK_DATA
