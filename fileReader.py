@@ -11,7 +11,6 @@ import os
 import tf_idf
 import scipy
 import numpy
-import scikit-learn
 import sklearn
 
 resume_dir = "Data/Resumes/"
