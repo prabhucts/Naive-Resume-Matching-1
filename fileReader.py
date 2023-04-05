@@ -30,6 +30,7 @@ def read_resumes(list_of_resumes, resume_directory):
         text = str(text, 'utf-8')
         temp.append(text)
         placeholder.append(temp)
+    print(temp)
     return placeholder
 
 document = read_resumes(resume_names, resume_dir)
