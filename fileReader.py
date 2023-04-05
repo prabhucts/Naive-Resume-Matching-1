@@ -77,5 +77,4 @@ jd_database = pd.DataFrame(Jd, columns=[
 
 jd_database.to_csv("Job_Data.csv", index=False)
 
-print(resume_names)
-print(job_description_names)
+    return resume_names
