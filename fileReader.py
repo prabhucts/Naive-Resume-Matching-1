@@ -32,7 +32,6 @@ def read_resumes(list_of_resumes, resume_directory):
         placeholder.append(temp)
     return placeholder
 
-
 document = read_resumes(resume_names, resume_dir)
 
 
@@ -77,3 +76,6 @@ jd_database = pd.DataFrame(Jd, columns=[
                            "Name", "Context", "Cleaned", "Selective", "Selective_Reduced", "TF_Based"])
 
 jd_database.to_csv("Job_Data.csv", index=False)
+
+print(resume_names)
+print(job_description_names)
